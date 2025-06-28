@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listes CSS Modernes</title>
+    <link rel="stylesheet" href="page3.css"/>
+</head>
+<body>
+    <h1>Démonstration des Listes CSS</h1>
+    
+    <div class="list-container">
+        <h2>Listes de base</h2>
+        
+        <h3>Liste non ordonnée</h3>
+        <ul>
+            <li>Fraises</li>
+            <li>Framboises</li>
+            <li>Cerises</li>
+        </ul>
+        
+        <h3>Liste ordonnée</h3>
+        <ol>
+            <li>Je me lève</li>
+            <li>Je mange et je bois</li>
+            <li>Je retourne me coucher</li>
+        </ol>
+        
+        <h3>Liste de définitions</h3>
+        <dl>
+            <dt>Chat</dt>
+            <dd>Animal à 4 pattes qui fait "Miaou !"</dd>
+            <dt>Chien</dt>
+            <dd>Animal à 4 pattes qui fait "Ouaf Ouaf !"</dd>
+            <dt>Prof de maths</dt>
+            <dd>Personne qui enseigne des choses que personne ne comprend</dd>
+        </dl>
+    </div>
+    
+    <div class="list-container">
+        <h2>Positionnement des puces</h2>
+        
+        <p>Voici une liste avec retrait (par défaut) :</p>
+        <ul class="retrait">
+            <li>Liste<br />à puces</li>
+            <li>Ligne 1<br />Ligne 2</li>
+            <li>Vous pouvez voir<br />que le texte est décalé sur la droite</li>
+        </ul>
+        
+        <p>Voici une liste sans retrait :</p>
+        <ul class="pas_de_retrait">
+            <li>Liste<br />à puces</li>
+            <li>Ligne 1<br />Ligne 2</li>
+            <li>Vous pouvez voir<br />que le texte n'est pas décalé sur la droite</li>
+        </ul>
+    </div>
+    
+    <div class="list-container">
+        <h2>Styles de puces</h2>
+        
+        <h3>Listes non ordonnées</h3>
+        <p>Liste standard (disc) :</p>
+        <ul>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+        
+        <p>Avec cercle :</p>
+        <ul class="cercle">
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+        
+        <p>Avec carré :</p>
+        <ul class="carre">
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+        
+        <p>Sans puces :</p>
+        <ul class="rien">
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+    </div>
+    
+    <div class="list-container">
+        <h2>Listes ordonnées</h2>
+        
+        <p>Standard (decimal) :</p>
+        <ol>
+            <li>Premier</li>
+            <li>Deuxième</li>
+            <li>Troisième</li>
+        </ol>
+        
+        <p>Avec zéro devant (decimal-leading-zero) :</p>
+        <ol class="commence_a_zero">
+            <li>Premier</li>
+            <li>Deuxième</li>
+            <li>Troisième</li>
+        </ol>
+        
+        <p>Lettres minuscules (lower-alpha) :</p>
+        <ol class="lettres_minuscules">
+            <li>Premier</li>
+            <li>Deuxième</li>
+            <li>Troisième</li>
+        </ol>
+        
+        <p>Chiffres romains (upper-roman) :</p>
+        <ol class="chiffres_romains">
+            <li>Premier</li>
+            <li>Deuxième</li>
+            <li>Troisième</li>
+        </ol>
+        
+        <p>Lettres grecques (lower-greek) :</p>
+        <ol class="lettres_grecques">
+            <li>Premier</li>
+            <li>Deuxième</li>
+            <li>Troisième</li>
+        </ol>
+    </div>
+    
+    <div class="list-container">
+        <h2>Positionnement d'éléments</h2>
+        <div>
+            <p id="premier">Premier paragraphe de texte</p>
+            <p id="second">Deuxième paragraphe de texte</p>
+        </div>
+    </div>
+</body>
+</html>

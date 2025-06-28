@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableaux</title>
+<link rel="stylesheet" href="Exotableau.css"/>
+</head>
+<body>
+    <h1>Mo Tableaux </h1>
+    
+    <div class="table-container">
+        <table>
+            <caption>Tableau 1: Les alphabets</caption>
+            <tr>
+                <td>A</td>
+                <td colspan="2" class="merged">Y</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="merged">X</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td colspan="2" class="merged">Z</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="table-container">
+        <table>
+            <caption>Tableau 2: Villes</caption>
+            <tr>
+                <td>Parakou</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="merged">Bohicon</td>
+                <td colspan="2" class="merged">Ouidah</td>
+            </tr>
+            <tr>
+                <td>Djougou</td>
+                <td>Porto-Novo</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
